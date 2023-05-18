@@ -1,7 +1,12 @@
 body{
-    background-color: tomato;
+    background-color:darkcyan ;
 }
 h1{
     text-align: center;
     text-underline-position: below;
+}
+herf{
+    border: 10px solid black;
+    margin: 10px;
+    padding: 10px;
 }
