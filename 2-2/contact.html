@@ -3,33 +3,47 @@
   <link rel="stylesheet" href="style.css">
   <style>
     div{
-      margin:  auto;
       background-color: cyan;
-      width: 255px;
       border: 5px solid green;
       padding: 5px;
-      margin: 10px;
-      
+      margin: -5px;
+     
+    }
+    .left{
+      float: left;
+    }
+    .right{
+      float: right;
     }
   </style>
 </head>
 <body>
+  
 
   <h2>Contacts</h2>
-  <div>
-  <a href="index.html">About me</a>
-  <a href="contact.html">Contact</a>
-  <a href="Work.html">Working Experience</a>
+  
+  <div class="left">
+    <a href="index.html">About me</a>
   </div>
-  <p>You can contact me at RealEmail@gmail.com <br> or call (989) 313-4752</p>
+  
+  <div class="right">
+    <a href="Work.html">Working Experience</a>
+  </div> 
+  
+ 
+  <p><br>You can contact me at RealEmail@gmail.com <br> call (989) 313-4752</p>
 
 
   <form style="text-align: center;">
-    <label for="fname">First name:</label><br>
-    <input type="text" id="fname" name="fname" ><br>
+    
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" ><br>
 
-    <label for="lname">Last name:</label><br>
-    <input type="text" id="lname" name="lname" >
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" name="email" ><br>
+    
+    <label for="message">Message:</label><br>
+    <input type="text" id="message" name="message"><br>
   </form>
 
 </body>
